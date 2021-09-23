@@ -4,14 +4,7 @@
 package HolyGrail;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
-
+    
     public static int sumOfShots(int[] board,int attempt1, int attempt2, int attempt3) {
         if(board == null)
             return 0;

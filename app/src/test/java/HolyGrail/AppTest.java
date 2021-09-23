@@ -10,24 +10,23 @@ class AppTest {
     @Test
     public void nonserialTest(){
         int[] arr = {1,3,5,7,9};
-        assertTrue(sumOfShots(arr,1,3,0) == 11);
+        assertTrue(App.sumOfShots(arr,1,3,0) == 11);
     }
 
     @Test
     public void invalidTest(){
         int[] arr = {1,3,5,7,9};
-        assertTrue(sumOfShots(arr,-1,0,45) == 1);
+        assertTrue(App.sumOfShots(arr,-1,0,45) == 1);
     }
 
     @Test
     public void nullTest(){
-        //int[] arr = {1,3,5,7,9};
-        assertTrue(sumOfShots(null,3,4,5) == 0);
+        assertTrue(App.sumOfShots(null,3,4,5) == 0);
     }
 
     @Test
     public void emptyArrayTest(){
         int[] arr = {};
-        assertTrue(sumOfShots(arr,0,4,99) == 0);
+        assertTrue(App.sumOfShots(arr,0,4,99) == 0);
     }
 }
