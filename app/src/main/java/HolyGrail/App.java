@@ -1,13 +1,12 @@
 package HolyGrail;
 
 import static spark.Spark.*;
-//import static spark.Spark.port;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import spark.ModelAndView;
 import spark.template.mustache.MustacheTemplateEngine;
